@@ -1,0 +1,53 @@
+= 001 - Application Framework
+
+* Status: accepted
+* Decision makers: Dev Team
+* Date: 2019-10-20
+
+
+
+=== Context and Problem Description
+
+The web application Pet Clinic should be based on an application framework, to reduce pure technical tasks, so we can concetrate on the busines logic.
+
+
+
+=== Considered Options
+
+* Spring Boot
+* DropWizard
+
+=== Decision
+
+Chosen option: "Spring Boot", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
+
+==== Positive Consequences
+
+* [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
+* …
+
+==== Negative Consequences
+
+* [e.g., compromising quality attribute, follow-up decisions required, …]
+* …
+
+=== Pros and Cons of the Options
+
+==== Spring Boot
+
+[example | description | pointer to more information | …] <!-- optional -->
+
+* *Good*: because [argument a]
+* *Good*: because [argument b]
+* *Bad*: because [argument c]
+* … <!-- numbers of pros and cons can vary -->
+
+==== Dropwizard
+
+[example | description | pointer to more information | …] <!-- optional -->
+
+* *Good*: because [argument a]
+* *Good*: because [argument b]
+* *Bad*: because [argument c]
+* … <!-- numbers of pros and cons can vary -->
+

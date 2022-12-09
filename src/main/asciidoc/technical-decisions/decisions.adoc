@@ -1,0 +1,12 @@
+= A list of all decisions by the Petclinic Team
+
+:toc:
+:toclevels: 1
+:description: This documents contains all decisions by the Petclinic Team.
+
+ifdef::backend-pdf[]
+include::technical-decisions/001_ApplicationFramework.adoc[]
+
+
+
+endif::[]
