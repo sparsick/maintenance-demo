@@ -22,7 +22,7 @@ import java.util.Set;
 import javax.validation.ConstraintViolation;
 import javax.validation.Validator;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
@@ -42,7 +42,7 @@ public class ValidatorTests {
     }
 
     @Test
-    public void shouldNotValidateWhenFirstNameEmpty() {
+    void shouldNotValidateWhenFirstNameEmpty() {
 
         LocaleContextHolder.setLocale(Locale.ENGLISH);
         Person person = new Person();
@@ -51,7 +51,7 @@ public class ValidatorTests {
 
         Validator validator = createValidator();
         Set<ConstraintViolation<Person>> constraintViolations = validator
-                .validate(person);
+            .validate(person);
 
         assertThat(constraintViolations).hasSize(1);
         ConstraintViolation<Person> violation = constraintViolations.iterator().next();
