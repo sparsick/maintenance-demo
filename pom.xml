@@ -25,7 +25,7 @@
     <webjars-bootstrap.version>3.3.6</webjars-bootstrap.version>
     <webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
     <webjars-jquery.version>2.2.4</webjars-jquery.version>
-    <wro4j.version>1.10.1</wro4j.version>
+    <wro4j.version>1.8.0</wro4j.version>
 
     <asciidoctorj.pdf.version>1.5.0-alpha.16</asciidoctorj.pdf.version>
     <asciidoctorj.version>1.5.6</asciidoctorj.version>
@@ -90,18 +90,6 @@
     <dependency>
       <groupId>org.webjars</groupId>
       <artifactId>webjars-locator-core</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.sun.xml.bind</groupId>
-      <artifactId>jaxb-impl</artifactId>
-      <version>2.3.2</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.sun.xml.bind</groupId>
-      <artifactId>jaxb-impl</artifactId>
-      <version>2.3.2</version>
-      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.sun.xml.bind</groupId>
@@ -303,6 +291,7 @@
             <phase>generate-resources</phase>
             <configuration>
               <backend>html</backend>
+              <relativeBaseDir>true</relativeBaseDir>
               <relativeBaseDir>true</relativeBaseDir>
               <doctype>book</doctype>
             </configuration>
