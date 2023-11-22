@@ -29,7 +29,7 @@
 
     <asciidoctorj.pdf.version>1.5.0-alpha.16</asciidoctorj.pdf.version>
     <asciidoctorj.version>1.5.6</asciidoctorj.version>
-    <jruby.version>1.7.26</jruby.version>
+    <jruby.version>1.7.27</jruby.version>
 
     <jacoco.version>0.8.8</jacoco.version>
 
